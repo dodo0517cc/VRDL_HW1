@@ -9,6 +9,8 @@ Step2: Load in the training images and correspond them with their labels
 Step3: Split the data for 5-fold cross validation
 
 Step4: Create Dataset and DataLoader for both training sets and validation sets, also do some augmentation.
+<img width="415" alt="image" src="https://user-images.githubusercontent.com/77607182/139598172-a9dd0139-8829-4f51-9d48-32b23537f040.png">
+
 
 Step5: Train the model for 80 epochs per fold with Densenet model and SGD optimizer, also, set the loss function to focal loss. Save the weights only if the validation accuracy raises. After training, we can get the loss curve and the accuracy curve as below.
 
