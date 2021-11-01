@@ -8,7 +8,7 @@ Step2: Load in the training images and correspond them with their labels
 
 Step3: Split the data for 5-fold cross validation
 
-Step4: Create Dataset and DataLoader for both training sets and validation sets, also do some augmentation.
+Step4: Create Dataset and DataLoader for both training sets and validation sets, also calculate the mean and standard deviation of the training dataset for normalization. Moreover, do some augmentation.
 <img width="415" alt="image" src="https://user-images.githubusercontent.com/77607182/139598172-a9dd0139-8829-4f51-9d48-32b23537f040.png">
 
 
