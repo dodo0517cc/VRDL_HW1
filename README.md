@@ -2,8 +2,10 @@
 
 ## To reproduce the submission file:
 
-Step1: Install albumentations package. \n
-       Download sample_submission.txt on colab and rename it as test_order.txt. \n
+Step1: Install albumentations package.
+       
+       Download sample_submission.txt on colab and rename it as test_order.txt.
+       
        Change the path of os.chdir('/home/u9285752/') to os.chdir('your_path') where the your_path is the path that your files exist.
 
 Step2: Load in the training images and correspond them with their labels
