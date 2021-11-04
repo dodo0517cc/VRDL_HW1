@@ -2,7 +2,7 @@
 
 ## To reproduce the submission file:
 
-Step1: Install albumentations package 
+Step1: Install albumentations package. Download sample_submission.txt on colab and rename it as test_order.txt.
 
 Step2: Load in the training images and correspond them with their labels
 
@@ -14,7 +14,7 @@ Step4: Create Dataset and DataLoader for both training sets and validation sets,
 
 Step5: Train the model for 80 epochs per fold with Densenet model and SGD optimizer, also, set the loss function to focal loss. Save the weights only if the validation accuracy raises. After training, we can get the loss curve and the accuracy curve as below.
 
-Step6: Load in the testing images and the txt file for detailed classes.
+Step6: Load in the testing images and the txt file for detailed classes and image orders of submission.
 
 Step7: Create Dataset and DataLoader for testing set. Then, load the weights that is saved previously. The homework is done now by saving the answer file.
 
