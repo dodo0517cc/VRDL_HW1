@@ -16,7 +16,8 @@ Step5: Train the model for 80 epochs per fold with Densenet model and SGD optimi
 
 Step6: Load in the testing images and the txt file for detailed classes and image orders of submission.
 
-Step7: Create Dataset and DataLoader for testing set. Then, load the weights that is saved previously. The homework is done now by saving the answer file.
+Step7: Create Dataset and DataLoader for testing set. Then, load the weights that is saved previously.(The weights file is too big to upload, so I provide a google drive link for fold0:https://drive.google.com/drive/folders/1FaYXQT4MRJA8A38fXFtqcGu4u3LwpCfb?usp=sharing) The homework is done now by saving the answer file.
+
 
 ## Get the results
 
