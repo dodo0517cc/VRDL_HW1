@@ -14,6 +14,7 @@ For the training process, I did 5-fold cross validation to valid my training res
 ## Methodology：
 
 ### Data pre-process：
+
 Transformation for Training（done by Albumentation package）：
 Random Resized Crop images to 299*299 pixels
 RGB Shift－set the ranges for changing values for the red channel, green channel and blue channel as 15. Also, set the probability as 0.5.
@@ -26,7 +27,7 @@ Resized images to 375*375pixels
 Center Crop to 299*299 pixels
 Normalization
 
-## Model architecture：Transfer learning－Densenet161
+### Model architecture：Transfer learning－Densenet161
 Use the pretrained weights, but unfreeze the layers. 
 Change the original fully connected layer－
 Add a Fully Connected Layer with 1024 output channels
@@ -36,7 +37,7 @@ Add Dropout layer for 0.3 probability to reduce overfitting
 Finally add a Fully Connected Layer with 200 output channels, because there are 200 classes
 
 
-## Hyperparameters：
+### Hyperparameters：
 
 Learning Rate－0.005
 Batch Size－64
