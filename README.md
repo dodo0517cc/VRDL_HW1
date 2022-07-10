@@ -93,6 +93,3 @@ Step7: Create Dataset and DataLoader for testing set. Then, load the weights tha
 ### Accuracy curves for 5 folds：
 
 <img width="265" alt="image" src="https://user-images.githubusercontent.com/77607182/178141390-ae2c3cfb-358d-406d-bcfa-0e65e27d515e.png"><img width="265" alt="image" src="https://user-images.githubusercontent.com/77607182/178141397-49d65fab-62f4-4e20-a399-abe782c381a3.png"><img width="265" alt="image" src="https://user-images.githubusercontent.com/77607182/178141400-9b8c27b2-2e57-4bdc-bb1a-7e2c29a5bfa9.png"><img width="265" alt="image" src="https://user-images.githubusercontent.com/77607182/178141402-9968ff69-3e68-44a3-a546-f04b967e8c2b.png"><img width="265" alt="image" src="https://user-images.githubusercontent.com/77607182/178141433-464d9f62-6488-4a55-88f0-cdbe7e20d571.png">
-
-
-<img width="265" alt="image" src="https://user-images.githubusercontent.com/77607182/178141390-ae2c3cfb-358d-406d-bcfa-0e65e27d515e.png"><img width="265" alt="image" src="https://user-images.githubusercontent.com/77607182/178141397-49d65fab-62f4-4e20-a399-abe782c381a3.png">
