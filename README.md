@@ -3,10 +3,11 @@
 ## Reference：
 
 Focal Loss: https://github.com/clcarwin/focal_loss_pytorch
+
 Focal loss is a loss function proposed in the article “Focal Loss for Dense Object Detection” to decay simple samples. The aim of focal loss is to perform down-weighting for inliers (easy examples), because it hopes to train hard examples as much as possible during the training process and ignore those easy examples. It is an improvement of the standard Cross Entropy Loss. The function is as below.
 Setting γ > 0 reduces the relative loss for well-classified samples, putting more focus on hard, misclassified examples. 
 
-##Brief introduction：
+## Brief introduction：
 
 There are only 3000 images for training. After counting, I found that it’s only 15 images for each class. Obviously, it’s a small-scaled dataset. As a result, I met overfitting problems. In order to deal with the problems, I did some data augmentation, and added Dropout layer in my fully connected layer of my transfer learning model－Densenet161. Also, I added weight decay for L2 regularization in my optimizer－SGD. 
 For the training process, I did 5-fold cross validation to valid my training results.
@@ -16,15 +17,25 @@ For the training process, I did 5-fold cross validation to valid my training res
 ### Data pre-process：
 
 Transformation for Training（done by Albumentation package）：
+
 Random Resized Crop images to 299*299 pixels
+
 RGB Shift－set the ranges for changing values for the red channel, green channel and blue channel as 15. Also, set the probability as 0.5.
+
 Horizontal Flip－set the probability as 0.5
+
 Shift Scale Rotate－set rotation range as 20, probability as 0.5
+
 Normalization 
+
 ----------------------------------------------------------------------------------------------------------------
+
 Transformation for Validation（done by Albumentation package）：
+
 Resized images to 375*375pixels
+
 Center Crop to 299*299 pixels
+
 Normalization
 
 ### Model architecture：Transfer learning－Densenet161
@@ -40,9 +51,13 @@ Finally add a Fully Connected Layer with 200 output channels, because there are 
 ### Hyperparameters：
 
 Learning Rate－0.005
+
 Batch Size－64
-Epochs－80	
+
+Epochs－80
+
 Loss－Focal Loss ( gamma=4 )
+
 Optimizer－SGD ( momentum = 0.9, weight_decay = 1e-5 )
 
 
