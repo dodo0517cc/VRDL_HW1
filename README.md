@@ -86,38 +86,7 @@ Step7: Create Dataset and DataLoader for testing set. Then, load the weights tha
 
 ## Get the results
 
-### Loss curve：
+### Loss curves for 5 folds：
 
-Fold 0
-![train loss](https://user-images.githubusercontent.com/77607182/139598076-cd8bbbbd-8a38-41e9-a171-5148344eb81f.jpeg)
+<img width="265" alt="image" src="https://user-images.githubusercontent.com/77607182/178141325-04128e57-10ab-4c30-b489-cc25f16f3f39.png"><img width="265" alt="image" src="https://user-images.githubusercontent.com/77607182/178141348-7f4f5cee-cf7a-4237-a46f-3619c1225271.png"><img width="265" alt="image" src="https://user-images.githubusercontent.com/77607182/178141350-5e1a116b-c90e-4f97-be4e-d4f290590b6c.png"><img width="265" alt="image" src="https://user-images.githubusercontent.com/77607182/178141359-18c74742-4d13-41dd-87fe-38d5be22132d.png"><img width="265" alt="image" src="https://user-images.githubusercontent.com/77607182/178141361-128b9cf2-91fb-443d-b890-7d5cc71d0f69.png">
 
- 
-Fold 1
-![train loss](https://user-images.githubusercontent.com/77607182/139598119-96d4ca4e-2b9a-44bb-9000-91eae28886da.jpeg)
- 
-Fold 2
-![train loss](https://user-images.githubusercontent.com/77607182/139598135-509d02eb-1ca7-42b1-9db7-232467fced2a.jpeg)
- 
-Fold 3
-![train loss](https://user-images.githubusercontent.com/77607182/139598143-b4efae96-897b-4dfe-9cfc-54a1281f4602.jpeg)
- 
-Fold 4
-![train loss](https://user-images.githubusercontent.com/77607182/139598151-897b0978-b131-45e8-b532-e0441f847cdc.jpeg)
- 
-### Accuracy curve
-
-Fold 0 
- ![train_acc](https://user-images.githubusercontent.com/77607182/139598114-a5466432-aafe-420b-a0cd-fbf098ffe165.jpeg)
-
-Fold 1
- ![train_acc](https://user-images.githubusercontent.com/77607182/139598121-156fe8f1-a63a-4924-a646-fc75f92248a3.jpeg)
-
-Fold 2
-![train_acc](https://user-images.githubusercontent.com/77607182/139598140-5d77a739-479d-48cb-8fcc-671064fdecf3.jpeg)
- 
-Fold 3
-![train_acc](https://user-images.githubusercontent.com/77607182/139598146-c5fd23a9-e6ad-4fea-a117-b2dbad879300.jpeg)
- 
-Fold 4
-![train_acc](https://user-images.githubusercontent.com/77607182/139598158-d7b5e596-714a-41a4-88bf-f09a52d84cb7.jpeg)
- 
